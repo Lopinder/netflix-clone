@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: black;
+    overflow-x: hidden;
+}
+.first{
+    background-image: url(sec1\ netfilx\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    padding-top: 1%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8vh;
+    padding-right: 9vh;
+}
+.logo3{width: 50vh;
+       color: red;}
+
+.button{
+    background-color: red;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+  
+    
+}
+.main{
+    width: 100%;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main1{
+    font-size: 55px;
+    margin-bottom: 15px;
+   
+}
+.main2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.box{flex-direction: row
+    ;}
+.emailbox{background-color: #303030;
+    border-color: white;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 4vh;
+    width: 27vh;
+    padding-right: 8vh;
+
+
+}
+.getbutton{
+    height: 6vh;
+    width: 18vh;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: red;
+}
+.xx{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    justify-content: space-between;
+
+}
+#enjoy{padding-top: 20vh;
+
+}
+
+hr{
+    height: 5px;
+    background-color: rgb(94, 94, 94);
+    border: none;
+}
+.page1{
+    
+}
+.page3{
+    color: white;
+    font-size: 54px;
+    
+}
+.page{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 0;
+    height: 500px;
+}
+.page2{flex-direction: column;
+    font-size: 30px;
+    padding: 60px 70px 0 50px;
+    width:50%;
+    color: white;
+
+}
+hr{
+    height: 5px;
+    background-color: rgb(94, 94, 94);
+    border: none;
+
+}
+.last{
+    padding: 3%;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+
+}
+.last{
+    margin: 60px;
+    padding :right 40%;
+}
+.last li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    width: fit-content;
+}
+.last li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    
+
+}
+input[type="radio"]{
+    display: none;
+}
+.answer{
+    background: #303030;
+    text-align:left ;
+    padding: 0 20px;
+    overflow: hidden;
+    max-height: 0;
+}
+.last input[type="radio"]:checked + label + .answer{
+    max-height: 600px;
+    padding: 30px 20px;
+    padding-top: 0;
+
+}
+.answer{font-size: 20px;}
+.buttondown{
+    color: white;
+    text-align: center;
+}
+#h3{
+    font-size: 20px;
+}
+footer{
+    color:rgb(197, 196, 196);
+}
+#foot2{
+    margin-left: 150px;
+}
+a{
+    color:rgb(197, 196, 196);
+}
+
+.foot{
+    display: inline-grid;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.foot1{
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.language{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
